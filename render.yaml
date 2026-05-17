@@ -7,7 +7,7 @@ services:
   - type: web
     name: cal-diy
     runtime: docker
-    plan: starter
+    plan: free
     region: oregon
     dockerfilePath: ./Dockerfile
     dockerContext: .
